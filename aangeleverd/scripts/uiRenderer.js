@@ -29,12 +29,14 @@ const renderMemes = (memes) => {
     }
 
     container.innerHTML = memes.map(m => `
-        <article class="meme-card">
-            <img src="./img/${m.image}" alt="${m.title}" loading="lazy" />
-            <h2>${m.title} <small>(${m.year})</small></h2>
-            <p class="caption">${m.description}</p>
-            <p class="meta">Categorie: ${m.category}</p>
-        </article>
+        <a href="meme.html?id=${m.id}" class="meme-link">
+          <article class="meme-card">
+              <img src="./img/${m.image}" alt="${m.title}" loading="lazy" />
+              <h2>${m.title} <small>(${m.year})</small></h2>
+              <p class="caption">${m.description}</p>
+              <p class="meta">Categorie: ${m.category}</p>
+          </article>
+        </a>
     `).join('');
 };
 

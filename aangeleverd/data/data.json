@@ -5,7 +5,8 @@
         "year": 2013,
         "category": "animal",
         "image": "doge.jpg",
-        "description": "Such wow. Much history. So meme."
+        "description": "Such wow. Much history. So meme.",
+        "history": "Doge werd populair door een foto van een Shiba Inu met grappige korte zinnen. Mensen gebruikten het in 2013 overal als internetgrap."
     },
     {
         "id": 2,
@@ -13,7 +14,8 @@
         "year": 2017,
         "category": "relationship",
         "image": "boyfriend.webp",
-        "description": "Man looks at another woman while his girlfriend looks shocked."
+        "description": "Man looks at another woman while his girlfriend looks shocked.",
+        "history": "Deze foto van een stockfoto werd een meme rond 2017. Mensen gebruiken het om afleiding of prioriteit te laten zien."
     },
     {
         "id": 3,
@@ -21,7 +23,8 @@
         "year": 2011,
         "category": "animation",
         "image": "nyan.gif",
-        "description": "A Pop-Tart cat flying through space leaving a rainbow trail."
+        "description": "A Pop-Tart cat flying through space leaving a rainbow trail.",
+        "history": "Nyan Cat is een geanimeerde GIF met aanstekelijke muziek uit 2011. Het werd een virale internethit en symbool van vroege webcultuur."
     },
     {
         "id": 4,
@@ -29,7 +32,8 @@
         "year": 2008,
         "category": "reaction",
         "image": "pepe.jpg",
-        "description": "A green frog character used in countless reaction memes."
+        "description": "A green frog character used in countless reaction memes.",
+        "history": "Pepe begon als stripfiguur, maar veranderde later in veel verschillende meme-vormen. Het werd een van de meest gebruikte reactie-memes."
     },
     {
         "id": 5,
@@ -37,7 +41,8 @@
         "year": 2007,
         "category": "music",
         "image": "rickroll.gif",
-        "description": "Getting tricked into clicking a link to Rick Astley’s 'Never Gonna Give You Up'."
+        "description": "Getting tricked into clicking a link to Rick Astley’s 'Never Gonna Give You Up'.",
+        "history": "Rickrolling begon rond 2007 als grap. Mensen stuurden links die beloofden iets anders te zijn maar leidden naar het nummer van Rick Astley."
     },
     {
         "id": 6,
@@ -45,7 +50,8 @@
         "year": 2009,
         "category": "reaction",
         "image": "successkid.png",
-        "description": "A toddler clenching his fist in triumph — pure success energy."
+        "description": "A toddler clenching his fist in triumph — pure success energy.",
+        "history": "Success Kid werd gebruikt om kleine overwinningen te vieren. Het begon als een persoonlijke foto en groeide uit tot veel meme-varianten."
     },
     {
         "id": 7,
@@ -53,7 +59,8 @@
         "year": 2012,
         "category": "humor",
         "image": "brian.jpg",
-        "description": "A school photo of a nerdy kid with unlucky captions."
+        "description": "A school photo of a nerdy kid with unlucky captions.",
+        "history": "Bad Luck Brian is een voorbeeld van een 'image macro' meme. Mensen voegden bijschriften toe om pech of slechte timing te tonen."
     },
     {
         "id": 8,
@@ -61,7 +68,8 @@
         "year": 2019,
         "category": "reaction",
         "image": "womancat.jpg",
-        "description": "A split image of a yelling woman and a confused white cat."
+        "description": "A split image of a yelling woman and a confused white cat.",
+        "history": "Deze samengestelde afbeelding werd populair rond 2019. Mensen gebruiken het om sterke emoties tegenover kalme verwarring te tonen."
     },
     {
         "id": 9,
@@ -69,7 +77,8 @@
         "year": 2012,
         "category": "animal",
         "image": "grumpycat.jpeg",
-        "description": "A perpetually angry-looking cat who hated everything."
+        "description": "A perpetually angry-looking cat who hated everything.",
+        "history": "Grumpy Cat werd beroemd door haar gezicht. Ze verscheen in veel memes en zelfs media-optredens."
     },
     {
         "id": 10,
@@ -77,6 +86,7 @@
         "year": 2017,
         "category": "concept",
         "image": "galaxybrain.jpg",
-        "description": "A progression of brain expansion to show increasing 'enlightenment'."
+        "description": "A progression of brain expansion to show increasing 'enlightenment'.",
+        "history": "Galaxy Brain laat een reeks steeds 'slimmere' ideeën zien, vaak sarcastisch. Het werd populair als meta-commentaar op denken."
     }
 ]

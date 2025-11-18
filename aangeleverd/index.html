@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meme Archive Browser</title>
+    <script type="module" src="./scripts/main.js" defer></script>
+</head>
+<body>
+    <main>
+        <header>
+            <h1>Meme Archief</h1>
+        </header>
+
+        <section id="controls">
+            <label for="categoryFilter">Categorie: </label>
+            <select id="categoryFilter">
+                <option value="all">Alle</option>
+            </select>
+
+            <label for="yearFilter">Jaar: </label>
+            <select id="yearFilter">
+                <option value="all">Alle</option>
+            </select>
+        </section>
+
+        <div id="loading" aria-live="polite"></div>
+
+        <section id="memes" aria-live="polite"></section>
+    </main>
+</body>
+</html>

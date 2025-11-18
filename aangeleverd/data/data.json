@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "title": "Doge",
+        "year": 2013,
+        "category": "animal",
+        "image": "doge.jpg",
+        "description": "Such wow. Much history. So meme."
+    },
+    {
+        "id": 2,
+        "title": "Distracted Boyfriend",
+        "year": 2017,
+        "category": "relationship",
+        "image": "boyfriend.webp",
+        "description": "Man looks at another woman while his girlfriend looks shocked."
+    },
+    {
+        "id": 3,
+        "title": "Nyan Cat",
+        "year": 2011,
+        "category": "animation",
+        "image": "nyan.gif",
+        "description": "A Pop-Tart cat flying through space leaving a rainbow trail."
+    },
+    {
+        "id": 4,
+        "title": "Pepe the Frog",
+        "year": 2008,
+        "category": "reaction",
+        "image": "pepe.jpg",
+        "description": "A green frog character used in countless reaction memes."
+    },
+    {
+        "id": 5,
+        "title": "Rickroll",
+        "year": 2007,
+        "category": "music",
+        "image": "rickroll.gif",
+        "description": "Getting tricked into clicking a link to Rick Astley’s 'Never Gonna Give You Up'."
+    },
+    {
+        "id": 6,
+        "title": "Success Kid",
+        "year": 2009,
+        "category": "reaction",
+        "image": "successkid.png",
+        "description": "A toddler clenching his fist in triumph — pure success energy."
+    },
+    {
+        "id": 7,
+        "title": "Bad Luck Brian",
+        "year": 2012,
+        "category": "humor",
+        "image": "brian.jpg",
+        "description": "A school photo of a nerdy kid with unlucky captions."
+    },
+    {
+        "id": 8,
+        "title": "Woman Yelling at Cat",
+        "year": 2019,
+        "category": "reaction",
+        "image": "womancat.jpg",
+        "description": "A split image of a yelling woman and a confused white cat."
+    },
+    {
+        "id": 9,
+        "title": "Grumpy Cat",
+        "year": 2012,
+        "category": "animal",
+        "image": "grumpycat.jpeg",
+        "description": "A perpetually angry-looking cat who hated everything."
+    },
+    {
+        "id": 10,
+        "title": "Galaxy Brain",
+        "year": 2017,
+        "category": "concept",
+        "image": "galaxybrain.jpg",
+        "description": "A progression of brain expansion to show increasing 'enlightenment'."
+    }
+]

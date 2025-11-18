@@ -41,11 +41,13 @@ const renderMemes = (memes) => {
 const setupFilterListeners = (onChange) => {
     const catSelect = document.getElementById('categoryFilter');
     const yearSelect = document.getElementById('yearFilter');
+    const searchInput = document.getElementById('searchInput');
     if (!catSelect || !yearSelect) return;
 
-    const handler = () => onChange({ category: catSelect.value, year: yearSelect.value });
+    const handler = () => onChange({ category: catSelect.value, year: yearSelect.value, search: searchInput ? searchInput.value.trim() : '' });
     catSelect.addEventListener('change', handler);
     yearSelect.addEventListener('change', handler);
+    if (searchInput) searchInput.addEventListener('input', handler);
 };
 
 const render = (memes, onChange) => {

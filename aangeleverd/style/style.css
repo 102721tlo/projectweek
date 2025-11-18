@@ -1,0 +1,54 @@
+:root{
+  --bg: #f6f7fb;
+  --card: #ffffff;
+  --muted: #666;
+  --gap: 16px;
+}
+*{box-sizing:border-box}
+body{
+  margin:0;
+  font-family:system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+  background:var(--bg);
+  color:#222;
+  padding:20px;
+}
+main{max-width:1100px;margin:0 auto}
+header h1{margin:0 0 12px;font-size:24px}
+#controls{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin-bottom:12px}
+#searchInput{padding:8px;border-radius:6px;border:1px solid #ccc;min-width:160px}
+select{padding:8px;border-radius:6px;border:1px solid #ccc}
+#loading{margin-bottom:12px;color:var(--muted)}
+
+#memes{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:var(--gap);
+}
+.meme-card{
+  background:var(--card);
+  border-radius:10px;
+  padding:12px;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  text-align:center;
+  box-shadow:0 1px 4px rgba(0,0,0,0.06);
+}
+.meme-card img{
+  width:120px;
+  height:120px;
+  border-radius:50%;
+  object-fit:cover;
+  margin-bottom:10px;
+  display:block;
+}
+.meme-card h2{font-size:16px;margin:0 0 6px}
+.caption{font-size:13px;color:var(--muted);margin:0 0 6px}
+.meta{font-size:12px;color:#555;margin:0}
+
+@media (max-width:900px){
+  #memes{grid-template-columns:repeat(2,1fr)}
+}
+@media (max-width:600px){
+  #memes{grid-template-columns:1fr}
+}
